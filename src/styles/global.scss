@@ -1,11 +1,12 @@
 
 
 :root {
-  --bg-color: #121214;
+  --bg-color: #15202b;
   --blue: #1DA1F2;
   --primary: #E1E1E6;
   --secondary: #828282;
   --white: #FFF;
+  --border-color: #2F2F2F;
 }
 
 * {
@@ -16,7 +17,12 @@
 
 body {
   color: var(--white);
+  background-color: var(--bg-color);
   -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+  font: 400 1rem Roboto, sans-serif;
 }
 
 button {

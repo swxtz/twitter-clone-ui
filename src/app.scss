@@ -1,0 +1,83 @@
+.layout {
+  margin: 0 auto;
+  max-width: 1000px;
+
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.sidebar {
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .logo {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .new-tweet {
+    background-color: var(--blue);
+    border-radius: 999px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 900;
+    border: 0;
+  }
+  
+  .new-tweet:hover {
+    filter: brightness(0.9);
+    transition: 200ms;
+  }
+
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
+  a {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  a.active {
+    color: var(--blue);
+  }
+}
+
+
+.content {
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+.timeline-header {
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--blue);
+  }
+}
