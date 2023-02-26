@@ -69,6 +69,8 @@ export function App() {
 
             <button type="submit">Tweet</button>
           </form>
+
+          <div className="separator"></div>
         </main>
       </div>
     </div>
