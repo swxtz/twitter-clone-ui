@@ -1,0 +1,28 @@
+
+
+:root {
+  --bg-color: #121214;
+  --blue: #1DA1F2;
+  --primary: #E1E1E6;
+  --secondary: #828282;
+  --white: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
